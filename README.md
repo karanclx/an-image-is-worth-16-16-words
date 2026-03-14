@@ -12,7 +12,7 @@ Pure PyTorch re-implementation of the original ViT architecture.
 
 The model treats an image as a sequence of fixed-size patches (default 16×16), embeds them linearly, adds position embeddings + a learnable [CLS] token, and feeds the sequence into a standard Transformer encoder. The final [CLS] representation is used for classification.
 
-**Original Figure 1 from the paper** (model overview):
+**model architecture:
 
 ![Vision Transformer (ViT) architecture diagram](https://github.com/google-research/vision_transformer/raw/main/vit_figure.png)
 
