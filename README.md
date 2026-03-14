@@ -32,3 +32,4 @@ The model treats an image as a sequence of fixed-size patches (default 16×16), 
 torch >= 2.0
 torchvision
 einops        
+
